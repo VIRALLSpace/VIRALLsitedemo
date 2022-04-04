@@ -1,0 +1,51 @@
+html{
+  font-size: 14pt;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #222;
+  color: #fff;
+}
+
+#menu {
+  height: 2rem;
+  background: #666;
+}
+
+#menu ul {
+  padding-left: 0;
+  list-style:none;
+  padding-top: .5rem;
+}
+
+#menu ul li {
+  padding: 0 2rem;
+  display: inline;
+  padding-top: .5rem;
+}
+
+#menu ul li:hover{
+  background: #ccc;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 60vw 40vw;
+  grid-gap: 2vw;
+}
+
+#codemirror {
+
+}
+
+#visualizer {
+
+}
