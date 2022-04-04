@@ -9,7 +9,7 @@ $("#run").on('click',function(){
   code['virall_load'] = encodeURIComponent(document.getElementById("codemirror").innerText);
   console.log(code);
   $.ajax({
-	url: "https://theglasshaus.org/api/compute.php",
+	url: "/query",
 	data: code,
 	success: function(response) {
 		document.getElementById("visualizer").innerText = response;
